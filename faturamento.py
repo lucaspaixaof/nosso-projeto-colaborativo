@@ -6,12 +6,11 @@ lucro = faturamento - custo
 
 
 
-print('O lucro foi de', lucro)
-print('O lucro foi de', lucro)
+print('O lucro foi de R$',lucro)
 
 margem_lucro = custo / faturamento
 
-print("a margem de lucro é de", margem_lucro)
+print(f"A margem de lucro é de R${margem_lucro:.2f}")
 
 novas_vendas = 5000
 taxa = 0.05
@@ -23,3 +22,4 @@ print('Total de:', valortotal)
 nome = "adryely rosario de oliveira"
 nome_upper = nome.upper()
 print(nome_upper)
+print('Total de R$', valortotal)
