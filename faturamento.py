@@ -8,13 +8,13 @@ taxa = 0.1
 
 
     
-print('O lucro foi de', lucro)
+print('O lucro foi de R$', lucro)
 
 margem_lucro = custo / faturamento
 
-print("a margem de lucro é de", margem_lucro)
+print("A margem de lucro é de R$", margem_lucro)
 
-if(vendas >= 5000):
+if vendas >= 5000:
     margem_lucro -= taxa
     print('Como sua venda passou da isenção então seu lucro foi apenas de: ', margem_lucro)
 
