@@ -1,6 +1,6 @@
 # nosso-projeto-colaborativo
 
-luzinestimavel - Hello class! 
+luzinestimavel - Hello class!
 
 amaues27 - Hello class!!!!!!!!!
 
@@ -17,3 +17,7 @@ milionascimento-maker - Hello class!
 nati.mariags - Hello class!!
 
 jean-xiii - Hello class!
+
+JossMattos - Hello class!!!
+
+rebecagomesdev - Hello class!
