@@ -8,13 +8,13 @@ taxa = 0.1
 
 
     
-print('O lucro foi de', lucro)
+print('O lucro foi de R$', lucro)
 
 margem_lucro = custo / faturamento
 
-print("a margem de lucro é de", margem_lucro)
+print("A margem de lucro é de R$", margem_lucro)
 
-if(vendas >= 5000):
+if vendas >= 5000:
     margem_lucro -= taxa
     print('Como sua venda passou da isenção então seu lucro foi apenas de: ', margem_lucro)
 
@@ -29,7 +29,7 @@ taxa = 0.05
 
 valortotal = novas_vendas - (novas_vendas * taxa)
 print('Surgiram novas vendas com uma taxa de 5%')
-print('Total de:', valortotal)
+print('Total de R$', valortotal)
 
 nome = "adryely rosario de oliveira"
 nome_upper = nome.upper()
