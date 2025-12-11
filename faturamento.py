@@ -18,8 +18,12 @@ taxa = 0.05
 valortotal = novas_vendas - (novas_vendas * taxa)
 print('Surgiram novas vendas com uma taxa de 5%')
 print('Total de:', valortotal)
+print('Total de R$', valortotal)
 
-nome = "adryely rosario de oliveira"
+nome = "AdryEly rosaRio de olIveIra"
 nome_upper = nome.upper()
 print(nome_upper)
-print('Total de R$', valortotal)
+
+
+nome_lower = nome.lower()
+print(nome_lower)
