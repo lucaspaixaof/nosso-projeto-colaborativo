@@ -18,4 +18,4 @@ taxa = 0.05
 
 valortotal = novas_vendas - (novas_vendas * taxa)
 print('Surgiram novas vendas com uma taxa de 5%')
-print('Total de:' valortotal)
+print('Total de:', valortotal)
