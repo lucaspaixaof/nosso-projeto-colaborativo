@@ -3,8 +3,20 @@
 faturamento = 1200
 custo = 700 
 lucro = faturamento - custo
+vendas = 5000
+taxa = 0.1
 
 
+    
+print('O lucro foi de R$', lucro)
+
+margem_lucro = custo / faturamento
+
+print("A margem de lucro é de R$", margem_lucro)
+
+if vendas >= 5000:
+    margem_lucro -= taxa
+    print('Como sua venda passou da isenção então seu lucro foi apenas de: ', margem_lucro)
 
 print('O lucro foi de R$',lucro)
 
@@ -17,6 +29,12 @@ taxa = 0.05
 
 valortotal = novas_vendas - (novas_vendas * taxa)
 print('Surgiram novas vendas com uma taxa de 5%')
+print('Total de:', valortotal)
+print('Total de R$', valortotal)
+
+nome = "AdryEly rosaRio de olIveIra"
+nome_upper = nome.upper()
+print(nome_upper)
 print('Total de R$', valortotal)
 
 # add uma nova lista de valores (no exemplo é a receita diaria) e fiz a soma total dos valores  
