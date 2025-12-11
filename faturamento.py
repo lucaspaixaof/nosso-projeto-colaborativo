@@ -46,3 +46,6 @@ for i in range(len(impostos)):
 
 nome_lower = nome.lower()
 print(nome_lower)
+
+for i in range(5):
+    print(i)
