@@ -37,12 +37,6 @@ nome_upper = nome.upper()
 print(nome_upper)
 print('Total de R$', valortotal)
 
-#alteração matias - lista de impostos
-impostos = [5,10,15,20]
-for i in range(len(impostos)):
-    print(f"Imposto de {i+1}: {impostos[i]}%")
-
-
-
-nome_lower = nome.lower()
-print(nome_lower)
+# add uma nova lista de valores (no exemplo é a receita diaria) e fiz a soma total dos valores  
+lista_vendas_diarias = [1500,850,960,750]
+print(f" A receita diária é {sum(lista_vendas_diarias):.2f}")
