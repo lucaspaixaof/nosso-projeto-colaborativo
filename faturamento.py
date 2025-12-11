@@ -35,6 +35,13 @@ print('Total de R$', valortotal)
 nome = "AdryEly rosaRio de olIveIra"
 nome_upper = nome.upper()
 print(nome_upper)
+print('Total de R$', valortotal)
+
+#alteração matias - lista de impostos
+impostos = [5,10,15,20]
+for i in range(len(impostos)):
+    print(f"Imposto de {i+1}: {impostos[i]}%")
+
 
 
 nome_lower = nome.lower()
