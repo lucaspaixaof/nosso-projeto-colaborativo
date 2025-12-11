@@ -16,7 +16,7 @@ print("a margem de lucro é de", margem_lucro)
 
 if(vendas >= 5000):
     margem_lucro -= taxa
-    print('Como sua venda passou da isenção então seu lucro foi apenas de: ', margem_lucro)
+    print('Como sua venda passou da isenção então sua nova margem de lucro é de: ', margem_lucro)
 
 print('O lucro foi de R$',lucro)
 
